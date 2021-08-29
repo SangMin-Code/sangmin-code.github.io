@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <meta name="description" content="Portforio for SangMin">
+    <meta name="author" content="SangMin">
+    <script src="https://kit.fontawesome.com/76e2956e51.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+<script src="main.js" defer></script>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav id="navbar">
+        <div class="navbar__logo">
+        <i>
+            <img class="logo" src="./images/favicon.png" alt="">
+        </i>
+        <a href="#">SangMin</a>
+        </div>
+        <div class="navbar__menu__container">
+            <ul class="navbar__menu">
+                <li class="navbar__menu__item active" data-section="#home">Home</li>
+                <li class="navbar__menu__item" data-section="#about">About</li>
+                <li class="navbar__menu__item" data-section="#skills">Skills</li>
+                <li class="navbar__menu__item" data-section="#work">My Work</li>
+                <li class="navbar__menu__item" data-section="#contact">Contact</li>
+            </ul>
+        </div>
+        <!-- Toggle button -->
+        <button class="navbar__toggle-btn"><i class="fas fa-bars"></i></button>
+    </nav>
+    <!-- Home -->
+    <section id="home" class="section">
+        <div class="home__container">
+            <img src="./images/home.jpg" alt="profile photo" class="home__avatar">
+            <h1 class="home__title">Hello, <br> I'm SangMin </h1>
+            <h2 class="home__description">사용자를 몰입시키는 프론트를 꿈꾸는 개발자</h2>
+            <button class="home_btn">Contact Me</button>
+        </div>
+    </section>
+        <!-- About -->
+    <section id="about" class="section section__container">
+        <h1>About Me</h1>
+        <p>
+            스프링을 이용하여 웹 프로젝트를 만든 경험을 가지고 있어 스프링 및 프론트엔드, 백엔드의 기본을 알고 있고 <br> 
+            프론트엔드에 관심이 있어 자바스크립트, 리액트 강의를 수강하고 자바스크립트를 활용해보고 싶어 노드 강의도 수강하였습니다.<br>
+            좋은 구조에 대해 고민하지만 필요한 성능과 기능을 구현하는 것을 우선합니다.
+        </p>
+        <div class="about__majors">
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fab fa-html5"></i>
+                </div>
+                <h2 class="major__title">
+                    Front-end
+                </h2>
+                <div class="major__description">
+                    HTML,CSS,JavaScript<br>
+                    React
+                </div>
+            </div>
+            <div class="major">
+                <div class="major__icon">
+                    <i class="fas fa-server"></i>
+                </div>
+                <h2 class="major__title">
+                    Back-end
+                </h2>
+                <div class="major__description">
+                    Java,JavaScript,SQL,Node.js<br>
+                    Spring
+                </div>
+            </div>
+        </div>
+        <div class="about__jobs">
+            <div class="job">
+                <div class="job__icon">
+                    <i class="fas fa-laptop-code"></i>
+                </div>
+                <div class="job__description">
+                    <p class="job__name">텐노드 솔루션</p>
+                    <p class="job__period">2019.09 ~ 2020.11</p>
+                </div>
+                </div>
+            <div class="job">
+                <div class="job__icon">
+                    <i class="fas fa-chalkboard-teacher"></i>
+                </div>
+                <div class="job__description">
+                    <p class="job__name">쌍용교육센터 교육과정 수료 </p>
+                    <p class="job__period">2019.02 ~ 2020.08</p>
+                </div>
+            </div>
+            <div class="job">
+                <div class="job__icon">
+                    <i class="fas fa-book-open"></i>
+                </div>
+                <div class="job__description">
+                    <p class="job__name">강의 이수</p>
+                    <p class="job__sub-name">DreamCoding 노드로 배우는 백엔드</p>
+                    <p class="job__sub-name">DreamCoding 프론트엔드 필수 브라우저 101</p>
+                    <p class="job__sub-name">DreamCoding 리액트, 유튜브 클론 코딩</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Skills -->
+    <section id="skills" class="section">
+        <div class="section__container">
+            <h1>skills</h1>
+            <h2>Skills & Attributes</h2>
+            <p>기본을 다지는데 충실하려 하고 <br>
+                document를 활용하는 방법으로 배우려 합니다.
+                </p>
+            <div class="skillset">
+                <div class="skillset__left">
+                    <h3 class="skillset__title"></h3>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>HTML</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>CSS</span>
+                            <span>50%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>JavaScript</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Java</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>SQL</span>
+                            <span>40%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>Spring</span>
+                            <span>30%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill__description">
+                            <span>React</span>
+                            <span>10%</span>
+                        </div>
+                        <div class="skill__bar">
+                            <div class="skill__value"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="skillset__right">
+                    <div class="tools">
+                        <h3 class="skillset__title">Tools</h3>
+                        <ul class="tools__list">
+                            <li><span>ViSualStudio Code</span></li>
+                            <li><span>Eclipse</span></li>
+                            <li><span>Oracle</span></li>
+                            <li><span>MySql</span></li>
+                        </ul>
+                    </div>
+                    <div class="etc">
+                        <h3 class="skillset__title">Etc</h3>
+                        <ul class="etc__list">
+                            <li><span>git</span></li>
+                            <li><span>Pycharm</span></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Work -->
+    <section id="work" class="section">
+        <div class="section__container">
+            <h1>My Work</h1>
+            <h3>Projects</h3>
+            <div class="work__categories">
+                <button class="category__btn" data-filter="*">All <span class="category__count">3</span></button>
+                <button class="category__btn" data-filter="front-end">Front-end <span class="category__count">2</span></button>
+                <button class="category__btn" data-filter="back-end">Web-Project <span class="category__count">1</span></button>
+            </div>
+
+            <div class="work__projects">
+                <a href="#" class="project" data-type="front-end" target="blank">
+                    <img class="project__img" src="./images/project4.PNG" alt="javascript_project">
+                    <div class="project__description">
+                        <h3>클릭 게임</h3>
+                        <span>
+                            HTML,CSS,Javascript
+                        </span>
+                    </div>
+                </a>
+                <a href="#" class="project" data-type="front-end" target="blank">
+                    <img class="project__img" src="./images/project1.png" alt="Web-Project_1">
+                    <div class="project__description">
+                        <h3>산책</h3>
+                        <span>
+                            HTML,CSS,JavaScrip<br>
+                            Java,SQL<br>
+                            Spring
+                        </span>
+                    </div>
+                </a>
+                <a href="#" class="project" data-type="back-end" target="blank">
+                    <img class="project__img" src="./images/project2.png" alt="Web-Project_2">
+                    <div class="project__description">
+                        <h3>구인구직</h3>
+                        <span>
+                            HTML,CSS,JavaScrip<br>
+                            Java,SQL<br>
+                            Spring
+                        </span>
+                    </div>
+                </a>
+                <a href="#" class="project" data-type="back-end" target="blank">
+                    <img class="project__img" src="./images/project3.png" alt="Web-Project_3">
+                    <div class="project__description">
+                        <h3>너나들이</h3>
+                        <span>
+                            HTML,CSS,JavaScrip<br>
+                            Java,SQL<br>
+                            Spring
+                        </span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </section>
+    <!-- Contact -->
+    <section id="contact" class="section">
+        <h1 class="contact__title">Contact Me</h1>
+        <h2 class="contact__email">ragd@naver.com</h2>
+        <div class="contact__links">
+            <a href="https://github.com/SangMin-Code" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="contact__rights"></p>
+    </section>
+    <button class="arrow"><i class="fas fa-arrow-up"></i></button>
+</body>
+</html>

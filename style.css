@@ -307,9 +307,30 @@ p {
 }
 
 .skill__value {
-	width: 50%;
 	height: 3px;
 	background-color: var(--color-orange);
+}
+
+.skill__value.skill__html {
+	width: 60%;
+}
+.skill__value.skill__css {
+	width: 60%;
+}
+.skill__value.skill__js {
+	width: 50%;
+}
+.skill__value.skill__java {
+	width: 40%;
+}
+.skill__value.skill__sql {
+	width: 40%;
+}
+.skill__value.skill__spring {
+	width: 40%;
+}
+.skill__value.skill__react {
+	width: 40%;
 }
 
 .skillset__left {
